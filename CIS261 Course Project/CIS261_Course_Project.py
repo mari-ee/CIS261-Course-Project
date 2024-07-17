@@ -9,17 +9,17 @@ def employeeName():
 
 
 def totalHours():
-    t_hours = input("Total Hours: ")
+    t_hours = float(input("Total Hours: "))
     return t_hours
 
 
 def hourlyRate():
-    hRate = input("Hourly Rate: ")
+    hRate = float(input("Hourly Rate: "))
     return hRate
 
 
 def incomeTaxRate():
-    it_rate = input("Income Tax Rate: ")
+    it_rate = float(input("Income Tax Rate: "))
     return it_rate
 
 

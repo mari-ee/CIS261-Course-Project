@@ -12,7 +12,7 @@ totalNetPay = 0
 
 # All functions to be defined
 def employeeName():
-    name = input("Employee Name: ")
+    name = input("Employee Name or press end to quit: ")
     return name
 
 
